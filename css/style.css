@@ -1,0 +1,196 @@
+/*
+Global styles
+ */
+
+p {
+	font-family: 'Source Serif Pro', serif;
+}
+
+h1, h2, h3, h4, a {
+	font-family: 'Old Standard TT', serif;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	padding: 10px;
+}
+
+p {
+	font-size: 17px;
+	margin: auto;
+}
+
+/* for spacing */
+.row {
+	padding: 2rem;
+}
+
+
+/*
+getting rid of extra space top and bottom
+ */
+.navbar
+{
+	margin-bottom: auto;
+}
+
+footer {
+	margin-bottom: auto;
+}
+
+
+body {
+	background-color: darkgrey ;
+}
+
+/*
+Portfolio and team icons, images and text
+ */
+
+
+
+@media (max-width: 992px) {
+	p, h2 {
+		align-content: center;
+		text-align: center; !important;
+	}
+	img, #icon, .headshot{
+		align-content: center;
+		text-align: center;
+		display: block;
+		margin: auto;
+	}
+}
+
+
+/*
+Everything re-sizes and centers with small screens
+*/
+
+@media (max-width: 500px) {
+	.tvp-title {
+		font-size: 22px;
+	}
+}
+
+#icon, img, .headshot{
+	max-height: 127px;
+	display: inline-block;
+	float: none;
+}
+
+/*
+Team
+ */
+.headshot {
+	max-height: 20rem;
+	display: block;
+	float: none;
+}
+
+
+
+/*
+News page panels and such
+ */
+
+/*
+Gives the logo's more space to look better on small screens
+ */
+img[alt="Albuquerque Journal logo"] {
+	padding: 10px;
+}
+img[alt="STC.UNM logo"] {
+	padding: 10px;
+}
+img[alt="KRWG logo"] {
+	padding: 10px;
+}
+
+
+
+
+/*
+Home page parallax
+ */
+
+/*.parallax {*/
+	/*background-image: url(../images/tramway-looking-up.jpg);*/
+	/*height: 100%;*/
+	/*background-attachment: fixed;*/
+	/*background-position: center;*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	/*padding-bottom: 25rem;*/
+	/*padding-top: 25rem;*/
+/*}*/
+
+/*
+parallax using javascript
+ */
+.tramway-image {
+	background-image: url("../images/mountain-cables.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:1000px;
+	width: inherit;
+	margin: auto;
+}
+
+
+
+
+/*
+Home page title overlaid on image
+ */
+.tvp-title {
+	background-color: aliceblue;
+	opacity: 0.8;
+	display: inline;
+	text-align: center;
+}
+
+/*
+Contact
+ */
+#contact {
+	background-color: darkgrey;
+}
+
+
+/*
+about
+ */
+
+.city-lights {
+	background-image: url("../images/city-lights.jpg");
+	height: 350px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+
+}
+
+
+/*
+Logo/ brand in nav bar
+ */
+img[alt="Tramway Venture Partners Logo"] {
+	display: inline-block;
+}
+
+
+/*
+footer
+ */
+footer {
+	text-align: center;
+	background-color: #f0f8ff;
+}
+
